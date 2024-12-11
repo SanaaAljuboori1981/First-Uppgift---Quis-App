@@ -16,11 +16,11 @@
     position: relative;
     width: 100%;
     max-width: 400%;
-    background: #1f2847;
+    background-color: #1f2847;
     padding: 30px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .heading {
@@ -30,13 +30,13 @@
     margin-bottom: 50px;
 }
 
-label {
+.label {
     display: block;
     font-size: 12px;
     margin-bottom: 10px;
     color: #fff;
 }
-select {
+.select {
     width: 100px;
     padding: 10px;
     border: none;
@@ -47,3 +47,6 @@ select {
     color: #1f2847;
     font-size: 14px;
 }
+.start-screen .btn {
+    margin-top: 50px;
+  }
