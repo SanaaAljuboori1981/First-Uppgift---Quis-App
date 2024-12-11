@@ -5,3 +5,20 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background: white;
+}
+container {
+    position: relative;
+    width: 100%;
+    max-width: 400%;
+    background: black;
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
