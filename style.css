@@ -138,3 +138,19 @@ timer .progress .progress-text {
   cursor: pointer;
   transition: 0.3s linear;
 }
+.answer .checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #3f4868;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+  }
+  .answer .checkbox i {
+    color: #fff;
+    font-size: 10px;
+    opacity: 0;
+    transition: all 0.3s;
+  }
